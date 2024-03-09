@@ -1,0 +1,14 @@
+[package]
+name = "http-body-compat"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bytes = "1"
+http-02 = { package = "http", version = "0.2" }
+http-1 = { package = "http", version = "1" }
+http-body-04 = { package = "http-body", version = "0.4" }
+http-body-1 = { package = "http-body", version = "1" }
+pin-project = "1"
